@@ -394,6 +394,19 @@ function Footer() {
     );
 }
 
- 
+function App() {
+    return (
+        <Box>
+            <CssBaseline />
+            <Header />
+            <HeroSection />
+            <FeaturesSection />
+            <HowItWorksSection />
+            <TestimonialSection />
+            <CallToActionSection />
+            <Footer />
+        </Box>
+    );
+}
 
 export default App;
